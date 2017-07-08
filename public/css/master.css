@@ -32,8 +32,11 @@ header > nav > a {
   color: #8f9099;
   margin-right: 20px;
   padding: 2px;
-  /*border-bottom-style: solid;
-  border-bottom-color: green;*/
+}
+
+header > nav > a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #08ffdf;
 }
 
 #find-your-next-trip {
@@ -55,8 +58,8 @@ header > nav > a {
   width: 75%;
 }
 
-#fynt-top > h1 {
-  width: 25%;
+#fynt-top > h2 {
+  width: 200px;
 }
 
 #fynt-bottom {
@@ -88,14 +91,54 @@ header > nav > a {
 
 #choose-your-region {
   padding: 0px 40px 0px 40px;
+  margin-bottom: 60px;
+  font-size: 11px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#choose-your-region > h2 {
+  margin: 20px 0px 20px 0px;
+}
+
+#choose-your-region > #region-map {
+  background-color: #ccffff;
+  width: 500px;
+  height: 200px;
 }
 
 #featured-trips {
-  padding: 0px 40px 0px 40px;
+  padding: 20px 40px 20px 40px;
+  background: linear-gradient(-90deg, #29abd6, #29abd6, #08ffdf);
+  color: white;
+  text-align: center;
+}
+
+#ft-header {
+  margin: 20px 0px 50px 0px;
+  font-size: 14px;
+}
+
+#ft-header > p {
+  font-size: 10px;
+}
+
+#featured-events {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.single-event {
+  width: 30%;
+  background-color: #ccffff;
+  color: black;
+  margin: 0px 20px 0px 20px;
 }
 
 footer {
-  background-color: #29abd6;
   padding: 0px 40px 0px 40px;
 
 }
