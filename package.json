@@ -1,7 +1,7 @@
 {
   "name": "hackathonproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS files go into public folder Models defines tables and their relations migrations make changes to the SQL tables views have our mustache (HTML Template) files routes have our js route files for every url",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
     "mustache-express": "^1.2.5",
     "pg": "^6.4.0",
     "sequelize": "^4.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eamonster27/hackathonproject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eamonster27/hackathonproject/issues"
+  },
+  "homepage": "https://github.com/eamonster27/hackathonproject#readme"
 }

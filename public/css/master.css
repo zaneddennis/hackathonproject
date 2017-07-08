@@ -1,0 +1,101 @@
+* {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: 0px;
+  justify-content: center;
+}
+
+header {
+  background-color: #3e455f;
+  color: white;
+  font-size: 12px;
+  padding: 0px 40px 0px 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+header > nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-self: center;
+
+}
+header > nav > a {
+  text-decoration: none;
+  color: #8f9099;
+  margin-right: 20px;
+  padding: 2px;
+  /*border-bottom-style: solid;
+  border-bottom-color: green;*/
+}
+
+#find-your-next-trip {
+  background-color: #3e455f;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 0px 40px 40px 40px;
+}
+
+#fynt-top {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 30px;
+
+}
+
+#fynt-top > .filler {
+  width: 75%;
+}
+
+#fynt-top > h1 {
+  width: 25%;
+}
+
+#fynt-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 30px;
+}
+
+#fynt-bottom > input[type="text"]{
+  background-color: #8f9099;
+  color: white;
+  border-style: none;
+  padding: 10px;
+  width: 28%;
+  margin-right: 5px;
+}
+
+#fynt-bottom > input[type="submit"]{
+  background-color: #08ffdf;
+  color: white;
+  border-style: none;
+  padding: 8px 25px 8px 25px;
+}
+
+#fynt-bottom > input[type="text"]::placeholder{
+  color: white;
+}
+
+
+#choose-your-region {
+  padding: 0px 40px 0px 40px;
+}
+
+#featured-trips {
+  padding: 0px 40px 0px 40px;
+}
+
+footer {
+  background-color: #29abd6;
+  padding: 0px 40px 0px 40px;
+
+}
