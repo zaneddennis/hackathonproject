@@ -1,0 +1,42 @@
+{
+  "name": "Event",
+  "plural": "Events",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Organizer": {
+      "type": "string",
+      "required": true
+    },
+    "start_Date": {
+      "type": "date",
+      "required": true
+    },
+    "end_Date": {
+      "type": "date",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "origin": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "PolybusNetwork": {
+    "host": "",
+    "port": 0,
+    "url": "postgres://username:password@localhost/database",
+    "database": "PolybusNetwork",
+    "password": "polybus",
+    "name": "PolybusNetwork",
+    "user": "Justin",
+    "connector": "postgresql"
+  }
+}
