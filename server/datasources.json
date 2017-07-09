@@ -4,13 +4,12 @@
     "connector": "memory"
   },
   "PolybusNetwork": {
-    "host": "",
+    "host": "localhost",
     "port": 0,
-    "url": "postgres://username:password@localhost/database",
     "database": "PolybusNetwork",
     "password": "polybus",
     "name": "PolybusNetwork",
-    "user": "Justin",
+    "user": "JustinClowney",
     "connector": "postgresql"
   }
 }

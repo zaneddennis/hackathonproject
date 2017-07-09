@@ -47,10 +47,6 @@
     "dataSource": "PolybusNetwork",
     "public": false
   },
-  "Organization": {
-    "dataSource": "PolybusNetwork",
-    "public": true
-  },
   "Organizer": {
     "dataSource": "PolybusNetwork",
     "public": true
