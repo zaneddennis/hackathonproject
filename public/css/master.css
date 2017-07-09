@@ -20,6 +20,11 @@ header {
   justify-content: space-between;
 }
 
+.user-info {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 header > nav {
   display: flex;
   flex-flow: row nowrap;
@@ -102,10 +107,11 @@ header > nav > a:hover {
   margin: 20px 0px 20px 0px;
 }
 
-#choose-your-region > #region-map {
-  background-color: #ccffff;
+#choose-your-region > #map {
+  /*background-color: #ccffff;
   width: 500px;
-  height: 200px;
+  height: 200px;*/
+  height: 500px;
 }
 
 #featured-trips {

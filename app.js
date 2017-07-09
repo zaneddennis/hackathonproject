@@ -2,6 +2,7 @@ const express = require("express");
 const mustache = require("mustache-express");
 const bodyParser = require("body-parser");
 const app = express();
+
 const mainRoutes = require("./routes/main");
 
 app.engine('mustache', mustache());
@@ -11,6 +12,6 @@ app.use(express.static("public"));
 app.use(mainRoutes);
 
 
-app.listen(3001, function(){
-  console.log("Server running!")
+app.listen(3000, function(){
+  console.log("Server running!");
 })

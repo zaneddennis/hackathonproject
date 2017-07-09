@@ -9,9 +9,10 @@
   <body>
 
     <header>
-      <div class="">
-        <div class="organization-thumb-nail"></div>
-        <h4>Organization Name</h4>
+      <div class="user-info">
+        <div class="organization-thumb-nail">
+        </div>
+        <h4>Organization XYZ</h4>
       </div>
 
       <nav>
@@ -30,7 +31,7 @@
           <div class="filler"></div>
         </div>
 
-        <form id="fynt-bottom" action="" method="post">
+        <form id="fynt-bottom" action="/" method="post">
           <input type="text" name="location" placeholder="Location">
           <input type="text" name="dates" placeholder="Dates">
           <input type="text" name="specialty" placeholder="Speciality">
@@ -41,8 +42,7 @@
 
       <div id="choose-your-region">
         <h2>Choose your region</h2>
-        <div id="region-map">
-
+        <div id="map">
         </div>
       </div>
 
@@ -74,5 +74,8 @@
     <footer>
 
     </footer>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7A419LWMHGOXzXWr1GrSWEL-bLE70lP4&callback=initMap">
+    </script>
   </body>
 </html>
